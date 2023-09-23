@@ -13,8 +13,11 @@ set -e
 
 echo "Activating feature 'pytorch'"
 
+which pip > /dev/null || (apt update && apt install python3-pip -y -qq)
+
+pip install torch
 # /usr/local/python/current/bin/python -m pip install torch
-python -c ''
+# python -c ''
 
 
 echo "pytorch installed! "
