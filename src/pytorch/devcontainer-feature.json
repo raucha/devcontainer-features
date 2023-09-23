@@ -1,0 +1,12 @@
+{
+    "name": "Pytorch",
+    "id": "pytorch",
+    "version": "1.0.0",
+    "description": "pytorch feature",
+    "options": {
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/python"
+    ]
+}
