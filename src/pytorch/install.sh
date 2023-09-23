@@ -13,6 +13,6 @@ set -e
 
 echo "Activating feature 'pytorch'"
 
-pip install pytorch
+pip install torch
 
 echo "pytorch installed! "
