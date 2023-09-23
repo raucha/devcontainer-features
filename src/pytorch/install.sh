@@ -14,5 +14,7 @@ set -e
 echo "Activating feature 'pytorch'"
 
 # /usr/local/python/current/bin/python -m pip install torch
+python -c ''
+
 
 echo "pytorch installed! "
