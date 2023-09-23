@@ -1,5 +1,5 @@
 {
-    "empty": {
+    "pytorch": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
             "pytorch": {
