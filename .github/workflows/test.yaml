@@ -14,7 +14,6 @@ jobs:
       matrix:
         features:
           - pytorch
-          - hello
         baseImage:
           - ubuntu:latest
           - mcr.microsoft.com/devcontainers/base:ubuntu
@@ -34,7 +33,6 @@ jobs:
       matrix:
         features:
           - pytorch
-          - hello
     steps:
       - uses: actions/checkout@v3
 
