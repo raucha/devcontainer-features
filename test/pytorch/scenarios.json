@@ -1,0 +1,10 @@
+{
+    "empty": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "pytorch": {
+                "import": "torch"
+            }
+        }
+    }
+}
