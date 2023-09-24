@@ -4,16 +4,16 @@
 
 - Install `pytorch` by `pip`.
 
-## Usage
+### Usage
 
-### CPU
+#### CPU
 ```json
 "features": {
   "ghcr.io/raucha/devcontainer-features/pytorch:latest": {}
 }
 ```
 
-### GPU
+#### GPU
 ```
 "features": {
   "ghcr.io/devcontainers/features/nvidia-cuda:1": {
